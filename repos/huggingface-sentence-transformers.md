@@ -3,7 +3,7 @@
 State-of-the-Art Embeddings, Retrieval, and Reranking
 
 - Repository: https://github.com/huggingface/sentence-transformers
-- Stars: 19,280
+- Stars: 19,282
 
 | PR | Title | Status |
 |---|---|---|

@@ -3,7 +3,7 @@
 An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, and structured data. Supports NLP, pattern matching, and customizable pipelines.
 
 - Repository: https://github.com/data-privacy-stack/presidio
-- Stars: 11,852
+- Stars: 11,858
 
 | PR | Title | Status |
 |---|---|---|
