@@ -1,6 +1,6 @@
 # neuml/txtai #1535: Split signs from operators when tokenizing SQL
 
-- **Status:** in review (opened 2026-11-08)
+- **Status:** merged 2026-11-12 by @davidmezzetti
 - **Pull request:** https://github.com/neuml/txtai/pull/1535
 - **Issue:** https://github.com/neuml/txtai/issues/1534
 - **Size:** +13 / -3 in 2 files, 3 commit(s)

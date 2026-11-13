@@ -1,6 +1,6 @@
 # neuml/txtai #1550: Track nested parentheses in SQL function arguments
 
-- **Status:** in review (opened 2026-11-12)
+- **Status:** merged 2026-11-12 by @davidmezzetti
 - **Pull request:** https://github.com/neuml/txtai/pull/1550
 - **Issue:** https://github.com/neuml/txtai/issues/1549
 - **Size:** +33 / -4 in 2 files, 1 commit(s)
