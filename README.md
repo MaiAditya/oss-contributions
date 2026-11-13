@@ -2,12 +2,13 @@
 
 Bug fixes and improvements I have contributed to open-source AI/ML projects. Each pull request has its own page with the problem, the fix, every commit and the files changed.
 
-**12 merged** · **22 in review** · **17 repositories** · **34 issues reported**
+**13 merged** · **25 in review** · **18 repositories** · **35 issues reported**
 
 ## Pull requests
 
 | Repository | PR | Title | Status | Lines |
 |---|---|---|---|---|
+| [neuml/txtai](repos/neuml-txtai.md) | [#1561](prs/neuml-txtai-1561.md) | Resolve bracket expressions on the right side of SQL operators | merged 2026-11-13 | +10/-1 |
 | [reflex-dev/reflex](repos/reflex-dev-reflex.md) | [#7866](prs/reflex-dev-reflex-7866.md) | Split strings by code points when the separator is empty | merged 2026-11-12 | +73/-2 |
 | [embeddings-benchmark/mteb](repos/embeddings-benchmark-mteb.md) | [#5880](prs/embeddings-benchmark-mteb-5880.md) | fix: return an empty ModelResult when evaluate gets no tasks | merged 2026-11-12 | +11/-2 |
 | [embeddings-benchmark/mteb](repos/embeddings-benchmark-mteb.md) | [#5879](prs/embeddings-benchmark-mteb-5879.md) | fix: filter cached results to the task's splits and subsets in evaluate | merged 2026-11-12 | +85/-2 |
@@ -21,10 +22,13 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [docling-project/docling](repos/docling-project-docling.md) | [#5078](prs/docling-project-docling-5078.md) | fix(jats): keep tables published as an image | merged 2026-11-06 | +105/-4 |
 | [neuml/txtai](repos/neuml-txtai.md) | [#1523](prs/neuml-txtai-1523.md) | Use each similar clause's own number of candidates when batching | merged 2026-11-06 | +33/-8 |
 | [comet-ml/opik](repos/comet-ml-opik.md) | [#9548](prs/comet-ml-opik-9548.md) | &#91;issue-9547&#93; &#91;SDK&#93; fix: ChrF scored identical short strings below 1.0 | in review | +138/-2 |
+| [reflex-dev/reflex](repos/reflex-dev-reflex.md) | [#7893](prs/reflex-dev-reflex-7893.md) | fix: type a repeated &#64;rx.event as one handler | in review | +54/-9 |
+| [reflex-dev/reflex](repos/reflex-dev-reflex.md) | [#7892](prs/reflex-dev-reflex-7892.md) | fix: name a forwarded scheme mismatch in the origin rejection warning | in review | +59/-11 |
+| [reflex-dev/reflex](repos/reflex-dev-reflex.md) | [#7891](prs/reflex-dev-reflex-7891.md) | fix: resolve relative alembic script&#95;location before matching frames | in review | +90/-20 |
 | [reflex-dev/reflex](repos/reflex-dev-reflex.md) | [#7882](prs/reflex-dev-reflex-7882.md) | fix: reject page routes that match the same URLs | in review | +266/-1 |
 | [reflex-dev/reflex](repos/reflex-dev-reflex.md) | [#7881](prs/reflex-dev-reflex-7881.md) | fix: handle symlinks when zipping the app for export | in review | +183/-9 |
 | [reflex-dev/reflex](repos/reflex-dev-reflex.md) | [#7880](prs/reflex-dev-reflex-7880.md) | fix: validate the trusted X-Forwarded-For entry as client&#95;ip | in review | +86/-2 |
-| [neuml/txtai](repos/neuml-txtai.md) | [#1561](prs/neuml-txtai-1561.md) | Resolve bracket expressions on the right side of SQL operators | in review | +10/-1 |
+| [huggingface/tokenizers](repos/huggingface-tokenizers.md) | [#2691](prs/huggingface-tokenizers-2691.md) | fix(bpe): keep byte-level vocab entries outside the byte alphabet as written | in review | +92/-10 |
 | [reflex-dev/reflex](repos/reflex-dev-reflex.md) | [#7867](prs/reflex-dev-reflex-7867.md) | Name every method decorated above &#64;rx.event in the deprecation warning | in review | +96/-11 |
 | [docling-project/docling](repos/docling-project-docling.md) | [#5315](prs/docling-project-docling-5315.md) | feat(jats): add article keywords to the document metadata | in review | +274/-1 |
 | [lancedb/lancedb](repos/lancedb-lancedb.md) | [#5003](prs/lancedb-lancedb-5003.md) | fix(python): keep the guessed vector dimension across batches for on&#95;bad&#95;vectors | in review | +64/-1 |
@@ -68,6 +72,7 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [huggingface/peft](https://github.com/huggingface/peft) | [#4152](https://github.com/huggingface/peft/issues/4152) | BOFT fails on Conv2d layers with non-square kernels | open | [#4157](prs/huggingface-peft-4157.md) |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4349](https://github.com/huggingface/sentence-transformers/issues/4349) | CrossEncoder silently drops legacy positional arguments after `device` | closed (fixed) | - |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4353](https://github.com/huggingface/sentence-transformers/issues/4353) | MatryoshkaLoss and EmbedDistillLoss crash when the model has truncate&#95;dim set | open | [#4354](prs/huggingface-sentence-transformers-4354.md) |
+| [huggingface/tokenizers](https://github.com/huggingface/tokenizers) | [#2690](https://github.com/huggingface/tokenizers/issues/2690) | &#91;v1&#93; Byte-level BPE `get_vocab()` / `get_vocab_size()` differ from 0.23.3 for DeepSeek-V3/R1 and ModernBERT | open | [#2691](prs/huggingface-tokenizers-2691.md) |
 | [lancedb/lancedb](https://github.com/lancedb/lancedb) | [#4988](https://github.com/lancedb/lancedb/issues/4988) | bug(python): pydantic&#95;to&#95;schema fails on constrained types inside Optional or List | open | [#4989](prs/lancedb-lancedb-4989.md) |
 | [lancedb/lancedb](https://github.com/lancedb/lancedb) | [#5002](https://github.com/lancedb/lancedb/issues/5002) | bug(python): on&#95;bad&#95;vectors does not handle bad vectors in later batches of an iterator | open | [#5003](prs/lancedb-lancedb-5003.md) |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | [#41818](https://github.com/langchain-ai/langchain/issues/41818) | mustache prompt templates HTML-escape variable values (`<` becomes `&lt;`) | open | - |
@@ -76,7 +81,7 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1522](https://github.com/neuml/txtai/issues/1522) | similar() clause without a candidates count gets the count of another clause | closed (fixed) | [#1523](prs/neuml-txtai-1523.md) |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1534](https://github.com/neuml/txtai/issues/1534) | SQL query fails when a negative number follows an operator without a space | closed (fixed) | [#1535](prs/neuml-txtai-1535.md) |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1549](https://github.com/neuml/txtai/issues/1549) | SQL translation ends a function at the first closing parenthesis | closed (fixed) | [#1550](prs/neuml-txtai-1550.md) |
-| [neuml/txtai](https://github.com/neuml/txtai) | [#1560](https://github.com/neuml/txtai/issues/1560) | Bracket expressions on the right side of an operator generate invalid SQL | open | [#1561](prs/neuml-txtai-1561.md) |
+| [neuml/txtai](https://github.com/neuml/txtai) | [#1560](https://github.com/neuml/txtai/issues/1560) | Bracket expressions on the right side of an operator generate invalid SQL | closed (fixed) | [#1561](prs/neuml-txtai-1561.md) |
 | [openlit/openlit](https://github.com/openlit/openlit) | [#1952](https://github.com/openlit/openlit/issues/1952) | Bug: LiteLLM calls with positional model and messages are traced as openai/gpt-4o | open | [#1953](prs/openlit-openlit-1953.md) |
 | [pydantic/pydantic](https://github.com/pydantic/pydantic) | [#14270](https://github.com/pydantic/pydantic/issues/14270) | `str_strip_whitespace`, `str_to_lower`/`str_to_upper` and `coerce_numbers_to_str` change `Path` values | open | - |
 | [qdrant/qdrant-client](https://github.com/qdrant/qdrant-client) | [#1657](https://github.com/qdrant/qdrant-client/issues/1657) | Local mode accepts invalid GeoPolygon filters that the server rejects | open | [#1658](prs/qdrant-qdrant-client-1658.md) |
@@ -86,22 +91,23 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 
 | Repository | About | Stars |
 |---|---|---|
-| [docling-project/docling](repos/docling-project-docling.md) | Get your documents ready for gen AI | 70,533 |
-| [roboflow/supervision](repos/roboflow-supervision.md) | We write your reusable computer vision tools. 💜 | 51,604 |
-| [reflex-dev/reflex](repos/reflex-dev-reflex.md) | 🕸️ Web apps in pure Python 🐍 | 29,019 |
+| [docling-project/docling](repos/docling-project-docling.md) | Get your documents ready for gen AI | 70,554 |
+| [roboflow/supervision](repos/roboflow-supervision.md) | We write your reusable computer vision tools. 💜 | 51,610 |
+| [reflex-dev/reflex](repos/reflex-dev-reflex.md) | 🕸️ Web apps in pure Python 🐍 | 29,021 |
 | [deepset-ai/haystack](repos/deepset-ai-haystack.md) | Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modul… | 27,001 |
-| [comet-ml/opik](repos/comet-ml-opik.md) | Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, auto… | 23,378 |
-| [huggingface/peft](repos/huggingface-peft.md) | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. | 21,885 |
-| [confident-ai/deepeval](repos/confident-ai-deepeval.md) | The LLM Evaluation Framework | 19,472 |
-| [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | State-of-the-Art Embeddings, Retrieval, and Reranking | 19,282 |
-| [neuml/txtai](repos/neuml-txtai.md) | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows | 13,372 |
-| [lancedb/lancedb](repos/lancedb-lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,892 |
-| [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, a… | 11,866 |
+| [comet-ml/opik](repos/comet-ml-opik.md) | Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, auto… | 23,392 |
+| [huggingface/peft](repos/huggingface-peft.md) | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. | 21,887 |
+| [confident-ai/deepeval](repos/confident-ai-deepeval.md) | The LLM Evaluation Framework | 19,474 |
+| [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | State-of-the-Art Embeddings, Retrieval, and Reranking | 19,283 |
+| [neuml/txtai](repos/neuml-txtai.md) | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows | 13,379 |
+| [lancedb/lancedb](repos/lancedb-lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,894 |
+| [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, a… | 11,875 |
+| [huggingface/tokenizers](repos/huggingface-tokenizers.md) | 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production | 11,243 |
 | [huggingface/accelerate](repos/huggingface-accelerate.md) | 🚀 A simple way to launch, train, and use PyTorch models on almost any device and distributed configuration, automatic m… | 9,942 |
-| [embeddings-benchmark/mteb](repos/embeddings-benchmark-mteb.md) | MTEB: State-of-the-art evaluation of embeddings across languages and modalities | 3,510 |
-| [openlit/openlit](repos/openlit-openlit.md) | Same agent Smaller bill. The tools and infrastructure to get more work from your AI. Fewer tokens. Less compute. Lower… | 3,067 |
+| [embeddings-benchmark/mteb](repos/embeddings-benchmark-mteb.md) | MTEB: State-of-the-art evaluation of embeddings across languages and modalities | 3,513 |
+| [openlit/openlit](repos/openlit-openlit.md) | Same agent Smaller bill. The tools and infrastructure to get more work from your AI. Fewer tokens. Less compute. Lower… | 3,070 |
 | [qdrant/qdrant-client](repos/qdrant-qdrant-client.md) | Python client for Qdrant vector search engine | 1,378 |
 | [mistralai/mistral-common](repos/mistralai-mistral-common.md) | Official inference library for pre-processing of Mistral models | 962 |
-| [langfuse/langfuse-python](repos/langfuse-langfuse-python.md) | 🪢 Langfuse Python SDK | 515 |
+| [langfuse/langfuse-python](repos/langfuse-langfuse-python.md) | 🪢 Langfuse Python SDK | 514 |
 
 _Last updated 2026-11-13. Generated from the GitHub API._

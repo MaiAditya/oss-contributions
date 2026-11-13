@@ -1,6 +1,6 @@
 # neuml/txtai #1561: Resolve bracket expressions on the right side of SQL operators
 
-- **Status:** in review (opened 2026-11-13)
+- **Status:** merged 2026-11-13 by @davidmezzetti
 - **Pull request:** https://github.com/neuml/txtai/pull/1561
 - **Issue:** https://github.com/neuml/txtai/issues/1560
 - **Size:** +10 / -1 in 2 files, 1 commit(s)
