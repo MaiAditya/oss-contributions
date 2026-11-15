@@ -3,7 +3,7 @@
 Same agent Smaller bill. The tools and infrastructure to get more work from your AI. Fewer tokens. Less compute. Lower cost.
 
 - Repository: https://github.com/openlit/openlit
-- Stars: 3,070
+- Stars: 3,078
 
 | PR | Title | Status |
 |---|---|---|

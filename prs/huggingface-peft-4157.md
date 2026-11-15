@@ -1,6 +1,6 @@
 # huggingface/peft #4157: FIX BOFT and OFT Conv2d layers
 
-- **Status:** in review (opened 2026-11-12)
+- **Status:** merged 2026-11-15 by @BenjaminBossan
 - **Pull request:** https://github.com/huggingface/peft/pull/4157
 - **Issue:** https://github.com/huggingface/peft/issues/4152
 - **Size:** +85 / -177 in 4 files, 1 commit(s)

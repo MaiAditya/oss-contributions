@@ -3,7 +3,7 @@
 The LLM Evaluation Framework
 
 - Repository: https://github.com/confident-ai/deepeval
-- Stars: 19,474
+- Stars: 19,484
 
 | PR | Title | Status |
 |---|---|---|
