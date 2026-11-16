@@ -3,7 +3,7 @@
 - **Status:** in review (opened 2026-11-15)
 - **Pull request:** https://github.com/huggingface/datasets/pull/9048
 - **Issue:** https://github.com/huggingface/datasets/issues/9028
-- **Size:** +28 / -1 in 3 files, 1 commit(s)
+- **Size:** +32 / -1 in 3 files, 2 commit(s)
 
 ## Problem
 
@@ -18,6 +18,7 @@ Stopped forwarding `drop_last_batch` in the `by_column` branch of both methods a
 | Commit | Date | Author | Message |
 |---|---|---|---|
 | [`6c121053`](https://github.com/huggingface/datasets/pull/9048/commits/6c1210536ecee8854cc1b1ce8eb85a41c6569a0d) | 2026-11-15 | MaiAditya | Fix batch(by&#95;column) with drop&#95;last&#95;batch dropping complete groups |
+| [`d60f730e`](https://github.com/huggingface/datasets/pull/9048/commits/d60f730e76fb010964e540a4632c573820d1f8d5) | 2026-11-16 | MaiAditya | Test batch(by&#95;column, drop&#95;last&#95;batch) on an indexed view shorter than batch&#95;size |
 
 ## Files changed
 
@@ -25,4 +26,4 @@ Stopped forwarding `drop_last_batch` in the `by_column` branch of both methods a
 |---|---|---|
 | <code>src/datasets/arrow&#95;dataset.py</code> | +3 | -0 |
 | <code>src/datasets/iterable&#95;dataset.py</code> | +1 | -1 |
-| <code>tests/test&#95;arrow&#95;dataset.py</code> | +24 | -0 |
+| <code>tests/test&#95;arrow&#95;dataset.py</code> | +28 | -0 |
