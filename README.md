@@ -2,12 +2,13 @@
 
 Bug fixes and improvements I have contributed to open-source AI/ML projects. Each pull request has its own page with the problem, the fix, every commit and the files changed.
 
-**15 merged** · **35 in review** · **22 repositories** · **42 issues reported**
+**16 merged** · **33 in review** · **22 repositories** · **42 issues reported**
 
 ## Pull requests
 
 | Repository | PR | Title | Status | Lines |
 |---|---|---|---|---|
+| [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | [#4383](prs/huggingface-sentence-transformers-4383.md) | &#91;fix&#93; Always evaluate `main_similarity` when `similarity_fn_names` omits it | merged 2026-11-16 | +277/-86 |
 | [PostHog/posthog-python](repos/PostHog-posthog-python.md) | [#1256](prs/PostHog-posthog-python-1256.md) | fix(ai): give Claude Agent SDK generations their tool results and every output block | merged 2026-11-16 | +341/-25 |
 | [huggingface/peft](repos/huggingface-peft.md) | [#4157](prs/huggingface-peft-4157.md) | FIX BOFT and OFT Conv2d layers | merged 2026-11-15 | +85/-177 |
 | [neuml/txtai](repos/neuml-txtai.md) | [#1561](prs/neuml-txtai-1561.md) | Resolve bracket expressions on the right side of SQL operators | merged 2026-11-13 | +10/-1 |
@@ -23,11 +24,9 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | [#4313](prs/huggingface-sentence-transformers-4313.md) | &#91;fix&#93; Score ParaphraseMiningEvaluator with the model's similarity function | merged 2026-11-09 | +23/-2 |
 | [docling-project/docling](repos/docling-project-docling.md) | [#5078](prs/docling-project-docling-5078.md) | fix(jats): keep tables published as an image | merged 2026-11-06 | +105/-4 |
 | [neuml/txtai](repos/neuml-txtai.md) | [#1523](prs/neuml-txtai-1523.md) | Use each similar clause's own number of candidates when batching | merged 2026-11-06 | +33/-8 |
-| [huggingface/diffusers](repos/huggingface-diffusers.md) | [#15307](prs/huggingface-diffusers-15307.md) | &#91;LoRA&#93; Only swap lora&#95;B in final&#95;layer scale/shift remaps (Flux Control, HunyuanVideo) | in review | +62/-6 |
-| [embeddings-benchmark/mteb](repos/embeddings-benchmark-mteb.md) | [#5901](prs/embeddings-benchmark-mteb-5901.md) | fix: keep results without a model revision in BenchmarkResults tables | in review | +78/-3 |
+| [huggingface/diffusers](repos/huggingface-diffusers.md) | [#15307](prs/huggingface-diffusers-15307.md) | &#91;LoRA&#93; Only swap lora&#95;B in final&#95;layer scale/shift remaps (Flux Control, HunyuanVideo) | in review | +66/-6 |
 | [embeddings-benchmark/mteb](repos/embeddings-benchmark-mteb.md) | [#5897](prs/embeddings-benchmark-mteb-5897.md) | fix: skip queries without reranking candidates | in review | +42/-2 |
 | [docling-project/docling](repos/docling-project-docling.md) | [#5405](prs/docling-project-docling-5405.md) | fix(jats): keep author affiliations given in place or without an id | in review | +1677/-1504 |
-| [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | [#4383](prs/huggingface-sentence-transformers-4383.md) | &#91;fix&#93; Always evaluate `main_similarity` when `similarity_fn_names` omits it | in review | +119/-14 |
 | [neuml/txtai](repos/neuml-txtai.md) | [#1579](prs/neuml-txtai-1579.md) | Use the SQL LIMIT clause when slicing merged Cluster results | in review | +46/-3 |
 | [neuml/txtai](repos/neuml-txtai.md) | [#1577](prs/neuml-txtai-1577.md) | Check that subindex ANN backends support upserts and deletes before changing any data | in review | +52/-2 |
 | [huggingface/datasets](repos/huggingface-datasets.md) | [#9048](prs/huggingface-datasets-9048.md) | Fix `batch(by_column=..., drop_last_batch=True)` dropping complete groups | in review | +32/-1 |
@@ -78,7 +77,7 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5877](https://github.com/embeddings-benchmark/mteb/issues/5877) | `mteb.evaluate` returns cached splits and subsets that the task doesn't ask for | closed (fixed) | [#5879](prs/embeddings-benchmark-mteb-5879.md) |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5878](https://github.com/embeddings-benchmark/mteb/issues/5878) | `mteb.evaluate(model, [])` raises `UnboundLocalError` | closed (fixed) | [#5880](prs/embeddings-benchmark-mteb-5880.md) |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5896](https://github.com/embeddings-benchmark/mteb/issues/5896) | `mteb/baseline-random-colbert` crashes on reranking queries without `top_ranked` candidates | open | [#5897](prs/embeddings-benchmark-mteb-5897.md) |
-| [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5900](https://github.com/embeddings-benchmark/mteb/issues/5900) | `BenchmarkResults` drops results whose model revision is `None` | open | [#5901](prs/embeddings-benchmark-mteb-5901.md) |
+| [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5900](https://github.com/embeddings-benchmark/mteb/issues/5900) | `BenchmarkResults` drops results whose model revision is `None` | closed | - |
 | [huggingface/accelerate](https://github.com/huggingface/accelerate) | [#4469](https://github.com/huggingface/accelerate/issues/4469) | accelerator.reduce(tensor, "mean") fails on integer tensors when more than one process is used | closed (fixed) | - |
 | [huggingface/datasets](https://github.com/huggingface/datasets) | [#9028](https://github.com/huggingface/datasets/issues/9028) | `batch(by_column=..., drop_last_batch=True)` drops complete groups in `Dataset` and returns a truncated group in `IterableDataset` | open | [#9048](prs/huggingface-datasets-9048.md) |
 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | [#15266](https://github.com/huggingface/diffusers/issues/15266) | EDMEulerScheduler.set&#95;timesteps fails with a list of sigmas, and custom sigmas are passed through the karras ramp | open | - |
@@ -110,23 +109,23 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 
 | Repository | About | Stars |
 |---|---|---|
-| [docling-project/docling](repos/docling-project-docling.md) | Get your documents ready for gen AI | 70,638 |
+| [docling-project/docling](repos/docling-project-docling.md) | Get your documents ready for gen AI | 70,646 |
 | [roboflow/supervision](repos/roboflow-supervision.md) | We write your reusable computer vision tools. 💜 | 51,639 |
-| [huggingface/diffusers](repos/huggingface-diffusers.md) | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 34,920 |
-| [reflex-dev/reflex](repos/reflex-dev-reflex.md) | 🕸️ Web apps in pure Python 🐍 | 29,029 |
-| [deepset-ai/haystack](repos/deepset-ai-haystack.md) | Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modul… | 27,015 |
+| [huggingface/diffusers](repos/huggingface-diffusers.md) | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 34,924 |
+| [reflex-dev/reflex](repos/reflex-dev-reflex.md) | 🕸️ Web apps in pure Python 🐍 | 29,028 |
+| [deepset-ai/haystack](repos/deepset-ai-haystack.md) | Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modul… | 27,017 |
 | [comet-ml/opik](repos/comet-ml-opik.md) | Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, auto… | 23,442 |
 | [huggingface/datasets](repos/huggingface-datasets.md) | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools | 22,147 |
-| [huggingface/peft](repos/huggingface-peft.md) | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. | 21,894 |
-| [confident-ai/deepeval](repos/confident-ai-deepeval.md) | The LLM Evaluation Framework | 19,505 |
-| [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | State-of-the-Art Embeddings, Retrieval, and Reranking | 19,286 |
-| [neuml/txtai](repos/neuml-txtai.md) | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows | 13,408 |
-| [lancedb/lancedb](repos/lancedb-lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,908 |
-| [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, a… | 11,896 |
+| [huggingface/peft](repos/huggingface-peft.md) | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. | 21,897 |
+| [confident-ai/deepeval](repos/confident-ai-deepeval.md) | The LLM Evaluation Framework | 19,510 |
+| [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | State-of-the-Art Embeddings, Retrieval, and Reranking | 19,287 |
+| [neuml/txtai](repos/neuml-txtai.md) | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows | 13,424 |
+| [lancedb/lancedb](repos/lancedb-lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,912 |
+| [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, a… | 11,900 |
 | [huggingface/tokenizers](repos/huggingface-tokenizers.md) | 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production | 11,249 |
 | [huggingface/huggingface_hub](repos/huggingface-huggingface_hub.md) | The official CLI and Python client for the Hugging Face Hub. | 4,054 |
 | [embeddings-benchmark/mteb](repos/embeddings-benchmark-mteb.md) | MTEB: State-of-the-art evaluation of embeddings across languages and modalities | 3,516 |
-| [openlit/openlit](repos/openlit-openlit.md) | Same agent Smaller bill. The tools and infrastructure to get more work from your AI. Fewer tokens. Less compute. Lower… | 3,083 |
+| [openlit/openlit](repos/openlit-openlit.md) | Same agent Smaller bill. The tools and infrastructure to get more work from your AI. Fewer tokens. Less compute. Lower… | 3,082 |
 | [qdrant/qdrant-client](repos/qdrant-qdrant-client.md) | Python client for Qdrant vector search engine | 1,378 |
 | [mistralai/mistral-common](repos/mistralai-mistral-common.md) | Official inference library for pre-processing of Mistral models | 963 |
 | [langfuse/langfuse-python](repos/langfuse-langfuse-python.md) | 🪢 Langfuse Python SDK | 516 |
