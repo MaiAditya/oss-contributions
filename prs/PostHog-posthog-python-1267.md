@@ -1,6 +1,6 @@
 # PostHog/posthog-python #1267: fix: mark an exception taken from sys.exc&#95;info() as captured
 
-- **Status:** in review (opened 2026-11-17)
+- **Status:** merged 2026-11-17 by @hpouillot
 - **Pull request:** https://github.com/PostHog/posthog-python/pull/1267
 - **Size:** +67 / -5 in 4 files, 1 commit(s)
 
