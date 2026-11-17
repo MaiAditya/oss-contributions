@@ -1,6 +1,6 @@
 # neuml/txtai #1569: Stop IS NULL from consuming the next token in SQL expressions
 
-- **Status:** in review (opened 2026-11-14)
+- **Status:** merged 2026-11-17 by @davidmezzetti
 - **Pull request:** https://github.com/neuml/txtai/pull/1569
 - **Issue:** https://github.com/neuml/txtai/issues/1568
 - **Size:** +12 / -5 in 3 files, 2 commit(s)
