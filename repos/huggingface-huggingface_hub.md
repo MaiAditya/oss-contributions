@@ -3,7 +3,7 @@
 The official CLI and Python client for the Hugging Face Hub.
 
 - Repository: https://github.com/huggingface/huggingface_hub
-- Stars: 4,057
+- Stars: 4,058
 
 | PR | Title | Status |
 |---|---|---|

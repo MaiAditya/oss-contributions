@@ -3,7 +3,7 @@
 We write your reusable computer vision tools. 💜
 
 - Repository: https://github.com/roboflow/supervision
-- Stars: 51,656
+- Stars: 51,662
 
 | PR | Title | Status |
 |---|---|---|

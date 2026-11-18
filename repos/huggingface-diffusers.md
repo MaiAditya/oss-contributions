@@ -3,7 +3,7 @@
 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.
 
 - Repository: https://github.com/huggingface/diffusers
-- Stars: 34,932
+- Stars: 34,937
 
 | PR | Title | Status |
 |---|---|---|

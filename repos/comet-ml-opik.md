@@ -3,7 +3,7 @@
 Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
 
 - Repository: https://github.com/comet-ml/opik
-- Stars: 23,443
+- Stars: 23,448
 
 | PR | Title | Status |
 |---|---|---|
