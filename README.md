@@ -2,12 +2,13 @@
 
 Bug fixes and improvements I have contributed to open-source AI/ML projects. Each pull request has its own page with the problem, the fix, every commit and the files changed.
 
-**26 merged** · **30 in review** · **21 repositories** · **42 issues reported**
+**27 merged** · **29 in review** · **21 repositories** · **42 issues reported**
 
 ## Pull requests
 
 | Repository | PR | Title | Status | Lines |
 |---|---|---|---|---|
+| [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | [#4354](prs/huggingface-sentence-transformers-4354.md) | &#91;fix&#93; Use the untruncated embedding dimension in MatryoshkaLoss and EmbedDistillLoss | merged 2026-11-19 | +83/-5 |
 | [embeddings-benchmark/mteb](repos/embeddings-benchmark-mteb.md) | [#5929](prs/embeddings-benchmark-mteb-5929.md) | fix: don't consume iterator models/tasks in ResultCache.load&#95;results and get&#95;cache&#95;paths | merged 2026-11-18 | +63/-7 |
 | [PostHog/posthog-python](repos/PostHog-posthog-python.md) | [#1277](prs/PostHog-posthog-python-1277.md) | fix(exceptions): match project root on directory boundaries for in&#95;app | merged 2026-11-18 | +28/-5 |
 | [embeddings-benchmark/mteb](repos/embeddings-benchmark-mteb.md) | [#5906](prs/embeddings-benchmark-mteb-5906.md) | fix: keep run&#95;settings of cached subsets when resuming an evaluation | merged 2026-11-17 | +76/-7 |
@@ -60,7 +61,6 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [deepset-ai/haystack](repos/deepset-ai-haystack.md) | [#13693](prs/deepset-ai-haystack-13693.md) | fix: avoid whitespace-only and over-long chunks in RecursiveDocumentSplitter | in review | +108/-8 |
 | [docling-project/docling](repos/docling-project-docling.md) | [#5301](prs/docling-project-docling-5301.md) | fix(jats): cover more JATS elements (&#35;1067) | in review | +1788/-394 |
 | [docling-project/docling](repos/docling-project-docling.md) | [#5297](prs/docling-project-docling-5297.md) | fix(jats): keep attributions, speakers and statement labels | in review | +38/-1 |
-| [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | [#4354](prs/huggingface-sentence-transformers-4354.md) | &#91;fix&#93; Use the untruncated embedding dimension in MatryoshkaLoss and EmbedDistillLoss | in review | +80/-5 |
 | [qdrant/qdrant-client](repos/qdrant-qdrant-client.md) | [#1658](prs/qdrant-qdrant-client-1658.md) | fix(local): reject invalid geo polygons in filters | in review | +93/-1 |
 | [mistralai/mistral-common](repos/mistralai-mistral-common.md) | [#423](prs/mistralai-mistral-common-423.md) | Raise InvalidToolCallError on malformed v11+ tool call outputs | in review | +183/-31 |
 | [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | [#2430](prs/data-privacy-stack-presidio-2430.md) | fix(analyzer): detect Indian vehicle registrations written with separators | in review | +129/-2 |
@@ -92,7 +92,7 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [huggingface/peft](https://github.com/huggingface/peft) | [#4152](https://github.com/huggingface/peft/issues/4152) | BOFT fails on Conv2d layers with non-square kernels | closed (fixed) | [#4157](prs/huggingface-peft-4157.md) |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#4178](https://github.com/huggingface/peft/issues/4178) | `add_weighted_adapter` silently does nothing for an existing `adapter_name` and drops adapters when `adapters` and `weights` differ in length (LoRA and IA3) | open | - |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4349](https://github.com/huggingface/sentence-transformers/issues/4349) | CrossEncoder silently drops legacy positional arguments after `device` | closed (fixed) | - |
-| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4353](https://github.com/huggingface/sentence-transformers/issues/4353) | MatryoshkaLoss and EmbedDistillLoss crash when the model has truncate&#95;dim set | open | [#4354](prs/huggingface-sentence-transformers-4354.md) |
+| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4353](https://github.com/huggingface/sentence-transformers/issues/4353) | MatryoshkaLoss and EmbedDistillLoss crash when the model has truncate&#95;dim set | closed (fixed) | [#4354](prs/huggingface-sentence-transformers-4354.md) |
 | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) | [#2690](https://github.com/huggingface/tokenizers/issues/2690) | &#91;v1&#93; Byte-level BPE `get_vocab()` / `get_vocab_size()` differ from 0.23.3 for DeepSeek-V3/R1 and ModernBERT | open | [#2691](prs/huggingface-tokenizers-2691.md) |
 | [lancedb/lancedb](https://github.com/lancedb/lancedb) | [#4988](https://github.com/lancedb/lancedb/issues/4988) | bug(python): pydantic&#95;to&#95;schema fails on constrained types inside Optional or List | open | [#4989](prs/lancedb-lancedb-4989.md) |
 | [lancedb/lancedb](https://github.com/lancedb/lancedb) | [#5002](https://github.com/lancedb/lancedb/issues/5002) | bug(python): on&#95;bad&#95;vectors does not handle bad vectors in later batches of an iterator | open | [#5003](prs/lancedb-lancedb-5003.md) |
@@ -116,22 +116,22 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 
 | Repository | About | Stars |
 |---|---|---|
-| [docling-project/docling](repos/docling-project-docling.md) | Get your documents ready for gen AI | 70,770 |
-| [roboflow/supervision](repos/roboflow-supervision.md) | We write your reusable computer vision tools. 💜 | 51,671 |
-| [huggingface/diffusers](repos/huggingface-diffusers.md) | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 34,942 |
+| [docling-project/docling](repos/docling-project-docling.md) | Get your documents ready for gen AI | 70,780 |
+| [roboflow/supervision](repos/roboflow-supervision.md) | We write your reusable computer vision tools. 💜 | 51,674 |
+| [huggingface/diffusers](repos/huggingface-diffusers.md) | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 34,944 |
 | [reflex-dev/reflex](repos/reflex-dev-reflex.md) | 🕸️ Web apps in pure Python 🐍 | 29,038 |
-| [deepset-ai/haystack](repos/deepset-ai-haystack.md) | Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modul… | 27,047 |
-| [comet-ml/opik](repos/comet-ml-opik.md) | Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, auto… | 23,454 |
+| [deepset-ai/haystack](repos/deepset-ai-haystack.md) | Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modul… | 27,050 |
+| [comet-ml/opik](repos/comet-ml-opik.md) | Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, auto… | 23,457 |
 | [huggingface/datasets](repos/huggingface-datasets.md) | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools | 22,159 |
-| [huggingface/peft](repos/huggingface-peft.md) | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. | 21,908 |
-| [confident-ai/deepeval](repos/confident-ai-deepeval.md) | The LLM Evaluation Framework | 19,551 |
-| [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | State-of-the-Art Embeddings, Retrieval, and Reranking | 19,289 |
-| [neuml/txtai](repos/neuml-txtai.md) | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows | 13,644 |
-| [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, a… | 11,953 |
-| [lancedb/lancedb](repos/lancedb-lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,942 |
+| [huggingface/peft](repos/huggingface-peft.md) | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. | 21,910 |
+| [confident-ai/deepeval](repos/confident-ai-deepeval.md) | The LLM Evaluation Framework | 19,560 |
+| [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | State-of-the-Art Embeddings, Retrieval, and Reranking | 19,290 |
+| [neuml/txtai](repos/neuml-txtai.md) | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows | 13,648 |
+| [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, a… | 11,960 |
+| [lancedb/lancedb](repos/lancedb-lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,945 |
 | [huggingface/tokenizers](repos/huggingface-tokenizers.md) | 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production | 11,258 |
 | [embeddings-benchmark/mteb](repos/embeddings-benchmark-mteb.md) | MTEB: State-of-the-art evaluation of embeddings across languages and modalities | 3,518 |
-| [openlit/openlit](repos/openlit-openlit.md) | Same agent, Smaller bill. The tools and infrastructure to get more work from your AI. Fewer tokens. Less compute. Lower… | 3,091 |
+| [openlit/openlit](repos/openlit-openlit.md) | Same agent, Smaller bill. The tools and infrastructure to get more work from your AI. Fewer tokens. Less compute. Lower… | 3,092 |
 | [qdrant/qdrant-client](repos/qdrant-qdrant-client.md) | Python client for Qdrant vector search engine | 1,379 |
 | [mistralai/mistral-common](repos/mistralai-mistral-common.md) | Official inference library for pre-processing of Mistral models | 965 |
 | [langfuse/langfuse-python](repos/langfuse-langfuse-python.md) | 🪢 Langfuse Python SDK | 516 |

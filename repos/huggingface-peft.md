@@ -3,7 +3,7 @@
 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.
 
 - Repository: https://github.com/huggingface/peft
-- Stars: 21,908
+- Stars: 21,910
 
 | PR | Title | Status |
 |---|---|---|
