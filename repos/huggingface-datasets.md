@@ -3,7 +3,7 @@
 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools
 
 - Repository: https://github.com/huggingface/datasets
-- Stars: 22,161
+- Stars: 22,172
 
 | PR | Title | Status |
 |---|---|---|

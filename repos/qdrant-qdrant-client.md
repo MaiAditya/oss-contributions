@@ -3,7 +3,7 @@
 Python client for Qdrant vector search engine
 
 - Repository: https://github.com/qdrant/qdrant-client
-- Stars: 1,379
+- Stars: 1,380
 
 | PR | Title | Status |
 |---|---|---|
