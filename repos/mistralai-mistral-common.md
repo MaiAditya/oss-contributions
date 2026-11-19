@@ -3,7 +3,7 @@
 Official inference library for pre-processing of Mistral models
 
 - Repository: https://github.com/mistralai/mistral-common
-- Stars: 964
+- Stars: 965
 
 | PR | Title | Status |
 |---|---|---|
