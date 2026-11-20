@@ -1,6 +1,6 @@
 # reflex-dev/reflex #7880: fix: validate the trusted X-Forwarded-For entry as client&#95;ip
 
-- **Status:** in review (opened 2026-11-13)
+- **Status:** merged 2026-11-20 by @FarhanAliRaza
 - **Pull request:** https://github.com/reflex-dev/reflex/pull/7880
 - **Issue:** https://github.com/reflex-dev/reflex/issues/7854
 - **Size:** +94 / -2 in 4 files, 5 commit(s)
