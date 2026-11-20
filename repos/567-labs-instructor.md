@@ -3,7 +3,7 @@
 structured outputs for llms 
 
 - Repository: https://github.com/567-labs/instructor
-- Stars: 14,127
+- Stars: 14,128
 
 | PR | Title | Status |
 |---|---|---|

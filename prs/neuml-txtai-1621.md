@@ -1,6 +1,6 @@
 # neuml/txtai #1621: Create function tools from docstrings when smolagents rejects their type hints
 
-- **Status:** in review (opened 2026-11-20)
+- **Status:** merged 2026-11-20 by @davidmezzetti
 - **Pull request:** https://github.com/neuml/txtai/pull/1621
 - **Issue:** https://github.com/neuml/txtai/issues/1620
 - **Size:** +32 / -1 in 2 files, 1 commit(s)
