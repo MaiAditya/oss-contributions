@@ -2,7 +2,7 @@
 
 Bug fixes and improvements I have contributed to open-source AI/ML projects. Each pull request has its own page with the problem, the fix, every commit and the files changed.
 
-**33 merged** · **44 in review** · **33 repositories** · **45 issues reported**
+**33 merged** · **45 in review** · **33 repositories** · **45 issues reported**
 
 ## Pull requests
 
@@ -55,6 +55,7 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | [#2520](prs/data-privacy-stack-presidio-2520.md) | fix(analyzer): count context words glued to an entity with ":" | in review | +68/-4 |
 | [weaviate/weaviate-python-client](repos/weaviate-weaviate-python-client.md) | [#2272](prs/weaviate-weaviate-python-client-2272.md) | fix(generative): return xAI and DeepSeek metadata in generative results | in review | +11/-1 |
 | [neuml/txtai](repos/neuml-txtai.md) | [#1624](prs/neuml-txtai-1624.md) | Use the configured name and description for typed function tools | in review | +33/-2 |
+| [PostHog/posthog-python](repos/PostHog-posthog-python.md) | [#1287](prs/PostHog-posthog-python-1287.md) | fix(ai): read OpenAI Agents response span usage when sensitive data is off | in review | +49/-3 |
 | [docling-project/docling-core](repos/docling-project-docling-core.md) | [#1059](prs/docling-project-docling-core-1059.md) | fix(doclang): wrap additional InlineGroup children of a TextItem in &lt;text&gt; | in review | +50/-1 |
 | [google/adk-python](repos/google-adk-python.md) | [#8260](prs/google-adk-python-8260.md) | fix(live): retry 1008 "already connected" and back off on reconnect | in review | +282/-4 |
 | [Arize-ai/openinference](repos/Arize-ai-openinference.md) | [#4377](prs/Arize-ai-openinference-4377.md) | fix(haystack): capture cache and reasoning token counts | in review | +102/-0 |
@@ -157,7 +158,7 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [vibrantlabsai/ragas](repos/vibrantlabsai-ragas.md) | Supercharge Your LLM Application Evaluations 🚀 | 16,390 |
 | [Unstructured-IO/unstructured](repos/Unstructured-IO-unstructured.md) | Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex do… | 15,769 |
 | [567-labs/instructor](repos/567-labs-instructor.md) | structured outputs for llms | 14,128 |
-| [neuml/txtai](repos/neuml-txtai.md) | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows | 13,678 |
+| [neuml/txtai](repos/neuml-txtai.md) | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows | 13,680 |
 | [Arize-ai/phoenix](repos/Arize-ai-phoenix.md) | AI Observability &amp; Evaluation | 12,366 |
 | [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, a… | 11,990 |
 | [lancedb/lancedb](repos/lancedb-lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,954 |
