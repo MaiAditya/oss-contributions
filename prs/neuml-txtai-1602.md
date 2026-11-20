@@ -1,8 +1,8 @@
 # neuml/txtai #1602: Return no results for a search limit of 0 with dense and hybrid indexes
 
-- **Status:** in review (opened 2026-11-18)
+- **Status:** merged 2026-11-19 by @davidmezzetti
 - **Pull request:** https://github.com/neuml/txtai/pull/1602
-- **Size:** +13 / -0 in 2 files, 2 commit(s)
+- **Size:** +13 / -0 in 2 files, 4 commit(s)
 
 ## Problem
 
@@ -18,6 +18,8 @@ Returned an empty result per query in the Faiss ANN backend's `search` when the 
 |---|---|---|---|
 | [`6c387971`](https://github.com/neuml/txtai/pull/1602/commits/6c3879713b960ef807d6acbd50cc26d0259d940a) | 2026-11-18 | MaiAditya | Return no results for a search limit of 0 with dense and hybrid indexes |
 | [`9df49049`](https://github.com/neuml/txtai/pull/1602/commits/9df490491e59e948cb2a8b654f10738d6a4690b4) | 2026-11-18 | MaiAditya | Skip the Faiss search for a limit of 0 instead of guarding Search.search |
+| [`d1975791`](https://github.com/neuml/txtai/pull/1602/commits/d1975791dcb944aff6b8e4c65735215f1558d450) | 2026-11-19 | davidmezzetti | Update faiss.py |
+| [`5e509772`](https://github.com/neuml/txtai/pull/1602/commits/5e5097725991fd8a02dfb2d0cba6d282d406fd64) | 2026-11-19 | davidmezzetti | Update faiss.py |
 
 ## Files changed
 

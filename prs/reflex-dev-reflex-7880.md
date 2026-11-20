@@ -3,7 +3,7 @@
 - **Status:** in review (opened 2026-11-13)
 - **Pull request:** https://github.com/reflex-dev/reflex/pull/7880
 - **Issue:** https://github.com/reflex-dev/reflex/issues/7854
-- **Size:** +94 / -2 in 4 files, 4 commit(s)
+- **Size:** +94 / -2 in 4 files, 5 commit(s)
 
 ## Problem
 
@@ -21,6 +21,7 @@ Added `_forwarded_client_ip()` to strip ports and brackets, normalise addresses 
 | [`47a5c935`](https://github.com/reflex-dev/reflex/pull/7880/commits/47a5c935626fb71a87f44585b7c897a5b6c1d0b7) | 2026-11-13 | MaiAditya | fix: reject malformed brackets and ports in X-Forwarded-For entries |
 | [`1b0af00e`](https://github.com/reflex-dev/reflex/pull/7880/commits/1b0af00eb6ade34757746516f3a4ed1bed7f54d0) | 2026-11-13 | MaiAditya | fix: reject IPv6 zone indexes in X-Forwarded-For entries |
 | [`a23f4cf8`](https://github.com/reflex-dev/reflex/pull/7880/commits/a23f4cf8e61c105b9c2323d35b6a17283121bc42) | 2026-11-19 | FarhanAliRaza | fix: unmap IPv4-mapped X-Forwarded-For entries and reject out-of-range ports |
+| [`a4e3e03a`](https://github.com/reflex-dev/reflex/pull/7880/commits/a4e3e03a68166c5a3c9296a7c51f29886b13b45b) | 2026-11-20 | masenf | Merge branch 'main' into fix/trusted-proxy-client-ip |
 
 ## Files changed
 

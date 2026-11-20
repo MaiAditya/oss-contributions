@@ -3,7 +3,7 @@
 MTEB: State-of-the-art evaluation of embeddings across languages and modalities
 
 - Repository: https://github.com/embeddings-benchmark/mteb
-- Stars: 3,519
+- Stars: 3,518
 
 | PR | Title | Status |
 |---|---|---|
