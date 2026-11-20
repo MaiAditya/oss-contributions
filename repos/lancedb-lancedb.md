@@ -3,7 +3,7 @@
 Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
 
 - Repository: https://github.com/lancedb/lancedb
-- Stars: 11,952
+- Stars: 11,953
 
 | PR | Title | Status |
 |---|---|---|

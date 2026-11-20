@@ -2,7 +2,7 @@
 
 Bug fixes and improvements I have contributed to open-source AI/ML projects. Each pull request has its own page with the problem, the fix, every commit and the files changed.
 
-**32 merged** · **44 in review** · **33 repositories** · **44 issues reported**
+**32 merged** · **45 in review** · **33 repositories** · **45 issues reported**
 
 ## Pull requests
 
@@ -53,6 +53,7 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [567-labs/instructor](repos/567-labs-instructor.md) | [#3088](prs/567-labs-instructor-3088.md) | fix(retry): report IncompleteOutputException to error hooks | in review | +132/-3 |
 | [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | [#2520](prs/data-privacy-stack-presidio-2520.md) | fix(analyzer): count context words glued to an entity with ":" | in review | +68/-4 |
 | [weaviate/weaviate-python-client](repos/weaviate-weaviate-python-client.md) | [#2272](prs/weaviate-weaviate-python-client-2272.md) | fix(generative): return xAI and DeepSeek metadata in generative results | in review | +11/-1 |
+| [neuml/txtai](repos/neuml-txtai.md) | [#1624](prs/neuml-txtai-1624.md) | Use the configured name and description for typed function tools | in review | +33/-2 |
 | [neuml/txtai](repos/neuml-txtai.md) | [#1621](prs/neuml-txtai-1621.md) | Create function tools from docstrings when smolagents rejects their type hints | in review | +32/-1 |
 | [docling-project/docling-core](repos/docling-project-docling-core.md) | [#1059](prs/docling-project-docling-core-1059.md) | fix(doclang): wrap additional InlineGroup children of a TextItem in &lt;text&gt; | in review | +50/-1 |
 | [google/adk-python](repos/google-adk-python.md) | [#8260](prs/google-adk-python-8260.md) | fix(live): retry 1008 "already connected" and back off on reconnect | in review | +282/-4 |
@@ -129,6 +130,7 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1568](https://github.com/neuml/txtai/issues/1568) | IS NULL in a select expression consumes the next token | closed (fixed) | [#1569](prs/neuml-txtai-1569.md) |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1570](https://github.com/neuml/txtai/issues/1570) | CASE expressions in SQL queries generate invalid SQL | closed (fixed) | [#1571](prs/neuml-txtai-1571.md) |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1576](https://github.com/neuml/txtai/issues/1576) | Upsert and delete on an annoy subindex remove database rows before raising NotImplementedError | closed (fixed) | [#1577](prs/neuml-txtai-1577.md) |
+| [neuml/txtai](https://github.com/neuml/txtai) | [#1623](https://github.com/neuml/txtai/issues/1623) | Agent dictionary tools ignore name and description when the target function has type hints | open | [#1624](prs/neuml-txtai-1624.md) |
 | [openlit/openlit](https://github.com/openlit/openlit) | [#1952](https://github.com/openlit/openlit/issues/1952) | Bug: LiteLLM calls with positional model and messages are traced as openai/gpt-4o | open | [#1953](prs/openlit-openlit-1953.md) |
 | [pydantic/pydantic](https://github.com/pydantic/pydantic) | [#14270](https://github.com/pydantic/pydantic/issues/14270) | `str_strip_whitespace`, `str_to_lower`/`str_to_upper` and `coerce_numbers_to_str` change `Path` values | open | - |
 | [qdrant/qdrant-client](https://github.com/qdrant/qdrant-client) | [#1657](https://github.com/qdrant/qdrant-client/issues/1657) | Local mode accepts invalid GeoPolygon filters that the server rejects | open | [#1658](prs/qdrant-qdrant-client-1658.md) |
@@ -138,7 +140,7 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 
 | Repository | About | Stars |
 |---|---|---|
-| [docling-project/docling](repos/docling-project-docling.md) | Get your documents ready for gen AI | 70,820 |
+| [docling-project/docling](repos/docling-project-docling.md) | Get your documents ready for gen AI | 70,821 |
 | [crewAIInc/crewAI](repos/crewAIInc-crewAI.md) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empower… | 61,131 |
 | [run-llama/llama_index](repos/run-llama-llama_index.md) | LlamaIndex is the document processing platform for AI | 52,969 |
 | [roboflow/supervision](repos/roboflow-supervision.md) | We write your reusable computer vision tools. 💜 | 51,675 |
@@ -146,19 +148,19 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [reflex-dev/reflex](repos/reflex-dev-reflex.md) | 🕸️ Web apps in pure Python 🐍 | 29,042 |
 | [deepset-ai/haystack](repos/deepset-ai-haystack.md) | Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modul… | 27,062 |
 | [comet-ml/opik](repos/comet-ml-opik.md) | Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, auto… | 23,472 |
-| [google/adk-python](repos/google-adk-python.md) | An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibil… | 22,284 |
+| [google/adk-python](repos/google-adk-python.md) | An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibil… | 22,285 |
 | [huggingface/datasets](repos/huggingface-datasets.md) | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools | 22,177 |
 | [huggingface/peft](repos/huggingface-peft.md) | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. | 21,908 |
 | [confident-ai/deepeval](repos/confident-ai-deepeval.md) | The LLM Evaluation Framework | 19,576 |
 | [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | State-of-the-Art Embeddings, Retrieval, and Reranking | 19,294 |
-| [pipecat-ai/pipecat](repos/pipecat-ai-pipecat.md) | Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community. | 17,361 |
+| [pipecat-ai/pipecat](repos/pipecat-ai-pipecat.md) | Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community. | 17,362 |
 | [vibrantlabsai/ragas](repos/vibrantlabsai-ragas.md) | Supercharge Your LLM Application Evaluations 🚀 | 16,389 |
 | [Unstructured-IO/unstructured](repos/Unstructured-IO-unstructured.md) | Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex do… | 15,769 |
 | [567-labs/instructor](repos/567-labs-instructor.md) | structured outputs for llms | 14,127 |
 | [neuml/txtai](repos/neuml-txtai.md) | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows | 13,671 |
 | [Arize-ai/phoenix](repos/Arize-ai-phoenix.md) | AI Observability &amp; Evaluation | 12,366 |
 | [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, a… | 11,989 |
-| [lancedb/lancedb](repos/lancedb-lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,952 |
+| [lancedb/lancedb](repos/lancedb-lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,953 |
 | [huggingface/tokenizers](repos/huggingface-tokenizers.md) | 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production | 11,262 |
 | [embeddings-benchmark/mteb](repos/embeddings-benchmark-mteb.md) | MTEB: State-of-the-art evaluation of embeddings across languages and modalities | 3,519 |
 | [openlit/openlit](repos/openlit-openlit.md) | Same agent, Smaller bill. The tools and infrastructure to get more work from your AI. Fewer tokens. Less compute. Lower… | 3,092 |
