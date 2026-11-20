@@ -3,7 +3,7 @@
 Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding.
 
 - Repository: https://github.com/Unstructured-IO/unstructured
-- Stars: 15,767
+- Stars: 15,769
 
 | PR | Title | Status |
 |---|---|---|

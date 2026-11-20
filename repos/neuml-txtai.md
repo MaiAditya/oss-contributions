@@ -3,7 +3,7 @@
 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows
 
 - Repository: https://github.com/neuml/txtai
-- Stars: 13,662
+- Stars: 13,667
 
 | PR | Title | Status |
 |---|---|---|

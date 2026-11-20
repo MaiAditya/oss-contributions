@@ -3,7 +3,7 @@
 - **Status:** in review (opened 2026-11-20)
 - **Pull request:** https://github.com/run-llama/llama_index/pull/24351
 - **Issue:** https://github.com/run-llama/llama_index/issues/24350
-- **Size:** +91 / -20 in 2 files, 1 commit(s)
+- **Size:** +132 / -28 in 2 files, 2 commit(s)
 
 ## Problem
 
@@ -18,10 +18,11 @@ Read token counts from `additional_kwargs` when raw `usage` has none, keeping ra
 | Commit | Date | Author | Message |
 |---|---|---|---|
 | [`9ef6ae78`](https://github.com/run-llama/llama_index/pull/24351/commits/9ef6ae78f59a3e34da1a2b73e721da498df8a255) | 2026-11-20 | MaiAditya | fix(core): read provider token counts from additional&#95;kwargs in TokenCountingHandler |
+| [`18face05`](https://github.com/run-llama/llama_index/pull/24351/commits/18face0512f767793aa96968334aa990f584b9c7) | 2026-11-20 | MaiAditya | fix(core): make token count fallback field-aware |
 
 ## Files changed
 
 | File | Added | Removed |
 |---|---|---|
-| <code>llama-index-core/llama&#95;index/core/callbacks/token&#95;counting.py</code> | +25 | -18 |
-| <code>llama-index-core/tests/callbacks/test&#95;token&#95;counter.py</code> | +66 | -2 |
+| <code>llama-index-core/llama&#95;index/core/callbacks/token&#95;counting.py</code> | +32 | -26 |
+| <code>llama-index-core/tests/callbacks/test&#95;token&#95;counter.py</code> | +100 | -2 |
