@@ -2,7 +2,7 @@
 
 Bug fixes and improvements I have contributed to open-source AI/ML projects. Each pull request has its own page with the problem, the fix, every commit and the files changed.
 
-**32 merged** · **42 in review** · **33 repositories** · **42 issues reported**
+**32 merged** · **44 in review** · **33 repositories** · **44 issues reported**
 
 ## Pull requests
 
@@ -42,9 +42,11 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [neuml/txtai](repos/neuml-txtai.md) | [#1523](prs/neuml-txtai-1523.md) | Use each similar clause's own number of candidates when batching | merged 2026-11-06 | +33/-8 |
 | [run-llama/llama_index](repos/run-llama-llama_index.md) | [#24351](prs/run-llama-llama_index-24351.md) | fix(core): read provider token counts from additional&#95;kwargs in TokenCountingHandler | in review | +132/-28 |
 | [Arize-ai/phoenix](repos/Arize-ai-phoenix.md) | [#18129](prs/Arize-ai-phoenix-18129.md) | docs(client): fix PromptVersion and get&#95;traces examples in README | in review | +8/-5 |
+| [crewAIInc/crewAI](repos/crewAIInc-crewAI.md) | [#9611](prs/crewAIInc-crewAI-9611.md) | fix(llm): keep timeout and context&#95;window&#95;size when copying LLM | in review | +36/-0 |
 | [pipecat-ai/pipecat](repos/pipecat-ai-pipecat.md) | [#6902](prs/pipecat-ai-pipecat-6902.md) | fix(zoom): confirm the finalize for an empty committed transcript | in review | +34/-0 |
 | [Unstructured-IO/unstructured](repos/Unstructured-IO-unstructured.md) | [#4816](prs/Unstructured-IO-unstructured-4816.md) | fix(chunking): keep a table's caption when the table is split into TableChunks | in review | +218/-3 |
 | [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | [#4420](prs/huggingface-sentence-transformers-4420.md) | &#91;fix&#93; Reject 'prompt' and 'task' dataset columns in CrossEncoderTrainer | in review | +26/-1 |
+| [Arize-ai/openinference](repos/Arize-ai-openinference.md) | [#4416](prs/Arize-ai-openinference-4416.md) | fix(beeai): record prompt cache read and write token counts | in review | +74/-0 |
 | [Arize-ai/openinference](repos/Arize-ai-openinference.md) | [#4405](prs/Arize-ai-openinference-4405.md) | fix(cohere): record cached prompt tokens from chat usage | in review | +47/-1 |
 | [Arize-ai/openinference](repos/Arize-ai-openinference.md) | [#4393](prs/Arize-ai-openinference-4393.md) | fix(agno): set total, reasoning and audio token counts on every path | in review | +204/-103 |
 | [vibrantlabsai/ragas](repos/vibrantlabsai-ragas.md) | [#3135](prs/vibrantlabsai-ragas-3135.md) | fix(testset): generate exactly testset&#95;size samples | in review | +108/-2 |
@@ -87,8 +89,10 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 
 | Repository | Issue | Title | Status | Fix PR |
 |---|---|---|---|---|
+| [Arize-ai/openinference](https://github.com/Arize-ai/openinference) | [#4415](https://github.com/Arize-ai/openinference/issues/4415) | &#91;bug&#93; beeai: prompt cache read/write token counts are not recorded on LLM spans | open | [#4416](prs/Arize-ai-openinference-4416.md) |
 | [comet-ml/opik](https://github.com/comet-ml/opik) | [#9547](https://github.com/comet-ml/opik/issues/9547) | &#91;Bug&#93;: ChrF scores identical short strings below 1.0 | open | [#9548](prs/comet-ml-opik-9548.md) |
 | [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | [#3642](https://github.com/confident-ai/deepeval/issues/3642) | evaluate() crashes with MarkupError when test data or a metric reason contains text like `[/INST]` | open | [#3644](prs/confident-ai-deepeval-3644.md) |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | [#9610](https://github.com/crewAIInc/crewAI/issues/9610) | &#91;BUG&#93; Copying an LLM drops timeout and context&#95;window&#95;size (Agent.copy / kickoff&#95;for&#95;each) | open | [#9611](prs/crewAIInc-crewAI-9611.md) |
 | [data-privacy-stack/presidio](https://github.com/data-privacy-stack/presidio) | [#2429](https://github.com/data-privacy-stack/presidio/issues/2429) | InVehicleRegistrationRecognizer misses plates written with spaces or hyphens ("MH 12 AB 1234", "KA-01-EA-1234") | open | [#2430](prs/data-privacy-stack-presidio-2430.md) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | [#13692](https://github.com/deepset-ai/haystack/issues/13692) | RecursiveDocumentSplitter returns whitespace-only chunks for text with runs of blank lines | open | [#13693](prs/deepset-ai-haystack-13693.md) |
 | [docling-project/docling](https://github.com/docling-project/docling) | [#5077](https://github.com/docling-project/docling/issues/5077) | JATS: a &lt;table-wrap&gt; with a &lt;graphic&gt; instead of a &lt;table&gt; is dropped with its label and caption | closed (fixed) | [#5078](prs/docling-project-docling-5078.md) |
@@ -135,7 +139,7 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | Repository | About | Stars |
 |---|---|---|
 | [docling-project/docling](repos/docling-project-docling.md) | Get your documents ready for gen AI | 70,820 |
-| [crewAIInc/crewAI](repos/crewAIInc-crewAI.md) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empower… | 61,130 |
+| [crewAIInc/crewAI](repos/crewAIInc-crewAI.md) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empower… | 61,131 |
 | [run-llama/llama_index](repos/run-llama-llama_index.md) | LlamaIndex is the document processing platform for AI | 52,969 |
 | [roboflow/supervision](repos/roboflow-supervision.md) | We write your reusable computer vision tools. 💜 | 51,675 |
 | [huggingface/diffusers](repos/huggingface-diffusers.md) | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 34,959 |
