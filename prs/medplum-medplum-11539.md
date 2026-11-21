@@ -1,6 +1,6 @@
 # medplum/medplum #11539: fix(ccda): map procedure status from statusCode and use in-progress for active
 
-- **Status:** in review (opened 2026-11-21)
+- **Status:** merged 2026-11-21 by @codyebberson
 - **Pull request:** https://github.com/medplum/medplum/pull/11539
 - **Issue:** https://github.com/medplum/medplum/issues/11517
 - **Size:** +51 / -8 in 4 files, 1 commit(s)

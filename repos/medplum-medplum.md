@@ -7,4 +7,4 @@ Medplum is a healthcare platform that helps you quickly develop high-quality com
 
 | PR | Title | Status |
 |---|---|---|
-| [#11539](../prs/medplum-medplum-11539.md) | fix(ccda): map procedure status from statusCode and use in-progress for active | in review (opened 2026-11-21) |
+| [#11539](../prs/medplum-medplum-11539.md) | fix(ccda): map procedure status from statusCode and use in-progress for active | merged 2026-11-21 by @codyebberson |
