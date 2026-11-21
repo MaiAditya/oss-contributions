@@ -2,7 +2,7 @@
 
 Bug fixes and improvements I have contributed to open-source AI/ML projects. Each pull request has its own page with the problem, the fix, every commit and the files changed.
 
-**35 merged** · **43 in review** · **33 repositories** · **45 issues reported**
+**35 merged** · **44 in review** · **34 repositories** · **45 issues reported**
 
 ## Pull requests
 
@@ -43,6 +43,7 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | [#4313](prs/huggingface-sentence-transformers-4313.md) | &#91;fix&#93; Score ParaphraseMiningEvaluator with the model's similarity function | merged 2026-11-09 | +23/-2 |
 | [docling-project/docling](repos/docling-project-docling.md) | [#5078](prs/docling-project-docling-5078.md) | fix(jats): keep tables published as an image | merged 2026-11-06 | +105/-4 |
 | [neuml/txtai](repos/neuml-txtai.md) | [#1523](prs/neuml-txtai-1523.md) | Use each similar clause's own number of candidates when batching | merged 2026-11-06 | +33/-8 |
+| [medplum/medplum](repos/medplum-medplum.md) | [#11539](prs/medplum-medplum-11539.md) | fix(ccda): map procedure status from statusCode and use in-progress for active | in review | +51/-8 |
 | [run-llama/llama_index](repos/run-llama-llama_index.md) | [#24351](prs/run-llama-llama_index-24351.md) | fix(core): read provider token counts from additional&#95;kwargs in TokenCountingHandler | in review | +132/-28 |
 | [Arize-ai/phoenix](repos/Arize-ai-phoenix.md) | [#18129](prs/Arize-ai-phoenix-18129.md) | docs(client): fix PromptVersion and get&#95;traces examples in README | in review | +8/-5 |
 | [crewAIInc/crewAI](repos/crewAIInc-crewAI.md) | [#9611](prs/crewAIInc-crewAI-9611.md) | fix(llm): keep timeout and context&#95;window&#95;size when copying LLM | in review | +36/-0 |
@@ -143,7 +144,7 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 |---|---|---|
 | [docling-project/docling](repos/docling-project-docling.md) | Get your documents ready for gen AI | 70,827 |
 | [crewAIInc/crewAI](repos/crewAIInc-crewAI.md) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empower… | 61,131 |
-| [run-llama/llama_index](repos/run-llama-llama_index.md) | LlamaIndex is the document processing platform for AI | 52,969 |
+| [run-llama/llama_index](repos/run-llama-llama_index.md) | LlamaIndex is the document processing platform for AI | 52,970 |
 | [roboflow/supervision](repos/roboflow-supervision.md) | We write your reusable computer vision tools. 💜 | 51,678 |
 | [huggingface/diffusers](repos/huggingface-diffusers.md) | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 34,959 |
 | [reflex-dev/reflex](repos/reflex-dev-reflex.md) | 🕸️ Web apps in pure Python 🐍 | 29,043 |
@@ -152,19 +153,20 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [google/adk-python](repos/google-adk-python.md) | An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibil… | 22,287 |
 | [huggingface/datasets](repos/huggingface-datasets.md) | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools | 22,178 |
 | [huggingface/peft](repos/huggingface-peft.md) | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. | 21,908 |
-| [confident-ai/deepeval](repos/confident-ai-deepeval.md) | The LLM Evaluation Framework | 19,578 |
+| [confident-ai/deepeval](repos/confident-ai-deepeval.md) | The LLM Evaluation Framework | 19,579 |
 | [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | State-of-the-Art Embeddings, Retrieval, and Reranking | 19,294 |
 | [pipecat-ai/pipecat](repos/pipecat-ai-pipecat.md) | Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community. | 17,364 |
 | [vibrantlabsai/ragas](repos/vibrantlabsai-ragas.md) | Supercharge Your LLM Application Evaluations 🚀 | 16,390 |
 | [Unstructured-IO/unstructured](repos/Unstructured-IO-unstructured.md) | Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex do… | 15,769 |
 | [567-labs/instructor](repos/567-labs-instructor.md) | structured outputs for llms | 14,128 |
-| [neuml/txtai](repos/neuml-txtai.md) | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows | 13,688 |
+| [neuml/txtai](repos/neuml-txtai.md) | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows | 13,689 |
 | [Arize-ai/phoenix](repos/Arize-ai-phoenix.md) | AI Observability &amp; Evaluation | 12,366 |
 | [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, a… | 11,990 |
-| [lancedb/lancedb](repos/lancedb-lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,955 |
+| [lancedb/lancedb](repos/lancedb-lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,956 |
 | [huggingface/tokenizers](repos/huggingface-tokenizers.md) | 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production | 11,263 |
 | [embeddings-benchmark/mteb](repos/embeddings-benchmark-mteb.md) | MTEB: State-of-the-art evaluation of embeddings across languages and modalities | 3,519 |
 | [openlit/openlit](repos/openlit-openlit.md) | Same agent, Smaller bill. The tools and infrastructure to get more work from your AI. Fewer tokens. Less compute. Lower… | 3,093 |
+| [medplum/medplum](repos/medplum-medplum.md) | Medplum is a healthcare platform that helps you quickly develop high-quality compliant applications. | 2,807 |
 | [qdrant/qdrant-client](repos/qdrant-qdrant-client.md) | Python client for Qdrant vector search engine | 1,380 |
 | [Arize-ai/openinference](repos/Arize-ai-openinference.md) | OpenTelemetry Instrumentation for AI Observability | 1,332 |
 | [mistralai/mistral-common](repos/mistralai-mistral-common.md) | Official inference library for pre-processing of Mistral models | 965 |
