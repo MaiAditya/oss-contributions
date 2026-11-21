@@ -3,7 +3,7 @@
 Get your documents ready for gen AI
 
 - Repository: https://github.com/docling-project/docling
-- Stars: 70,833
+- Stars: 70,834
 
 | PR | Title | Status |
 |---|---|---|
