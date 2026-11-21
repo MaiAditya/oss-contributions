@@ -1,6 +1,6 @@
 # Arize-ai/openinference #4416: fix(beeai): record prompt cache read and write token counts
 
-- **Status:** in review (opened 2026-11-20)
+- **Status:** merged 2026-11-20 by @mikeldking
 - **Pull request:** https://github.com/Arize-ai/openinference/pull/4416
 - **Issue:** https://github.com/Arize-ai/openinference/issues/4415
 - **Size:** +74 / -0 in 4 files, 1 commit(s)

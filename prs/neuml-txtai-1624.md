@@ -1,6 +1,6 @@
 # neuml/txtai #1624: Use the configured name and description for typed function tools
 
-- **Status:** in review (opened 2026-11-20)
+- **Status:** merged 2026-11-21 by @davidmezzetti
 - **Pull request:** https://github.com/neuml/txtai/pull/1624
 - **Issue:** https://github.com/neuml/txtai/issues/1623
 - **Size:** +33 / -2 in 2 files, 1 commit(s)
