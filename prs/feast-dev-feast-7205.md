@@ -3,7 +3,7 @@
 - **Status:** in review (opened 2026-11-21)
 - **Pull request:** https://github.com/feast-dev/feast/pull/7205
 - **Issue:** https://github.com/feast-dev/feast/issues/7204
-- **Size:** +282 / -27 in 2 files, 1 commit(s)
+- **Size:** +384 / -27 in 2 files, 2 commit(s)
 
 ## Problem
 
@@ -18,10 +18,11 @@ Ran the UDF once per row by position and expanded each output into rows before w
 | Commit | Date | Author | Message |
 |---|---|---|---|
 | [`03852fde`](https://github.com/feast-dev/feast/pull/7205/commits/03852fdec62bf153b9d4695c202c8e827026ddeb) | 2026-11-21 | MaiAditya | fix: Transform every row when writing to a singleton Python ODFV |
+| [`fd7ce2fd`](https://github.com/feast-dev/feast/pull/7205/commits/fd7ce2fda03e860cb9611ce37fd361305ae67e3a) | 2026-11-21 | MaiAditya | fix: Address review feedback on singleton ODFV writes |
 
 ## Files changed
 
 | File | Added | Removed |
 |---|---|---|
-| <code>sdk/python/feast/feature&#95;store.py</code> | +53 | -26 |
-| <code>sdk/python/tests/unit/online&#95;store/test&#95;online&#95;writes.py</code> | +229 | -1 |
+| <code>sdk/python/feast/feature&#95;store.py</code> | +74 | -26 |
+| <code>sdk/python/tests/unit/online&#95;store/test&#95;online&#95;writes.py</code> | +310 | -1 |

@@ -3,7 +3,7 @@
 An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
 
 - Repository: https://github.com/google/adk-python
-- Stars: 22,290
+- Stars: 22,295
 
 | PR | Title | Status |
 |---|---|---|
