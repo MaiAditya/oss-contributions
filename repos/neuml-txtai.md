@@ -3,10 +3,11 @@
 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows
 
 - Repository: https://github.com/neuml/txtai
-- Stars: 13,711
+- Stars: 13,714
 
 | PR | Title | Status |
 |---|---|---|
+| [#1640](../prs/neuml-txtai-1640.md) | Add OpenAI client LLM and Vectors providers | merged 2026-11-22 by @davidmezzetti |
 | [#1638](../prs/neuml-txtai-1638.md) | Pass stripthink=False through the LLM and RAG API endpoints | merged 2026-11-22 by @davidmezzetti |
 | [#1624](../prs/neuml-txtai-1624.md) | Use the configured name and description for typed function tools | merged 2026-11-21 by @davidmezzetti |
 | [#1621](../prs/neuml-txtai-1621.md) | Create function tools from docstrings when smolagents rejects their type hints | merged 2026-11-20 by @davidmezzetti |
