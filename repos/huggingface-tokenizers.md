@@ -3,7 +3,7 @@
 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production
 
 - Repository: https://github.com/huggingface/tokenizers
-- Stars: 11,270
+- Stars: 11,275
 
 | PR | Title | Status |
 |---|---|---|
