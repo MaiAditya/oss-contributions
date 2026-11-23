@@ -1,8 +1,8 @@
-# huggingface/sentence-transformers #4420: &#91;fix&#93; Reject 'prompt' and 'task' dataset columns in CrossEncoderTrainer
+# huggingface/sentence-transformers #4420: &#91;fix&#93; Avoid CrossEncoder input column collisions with batch metadata
 
-- **Status:** in review (opened 2026-11-20)
+- **Status:** merged 2026-11-23 by @tomaarsen
 - **Pull request:** https://github.com/huggingface/sentence-transformers/pull/4420
-- **Size:** +26 / -1 in 3 files, 1 commit(s)
+- **Size:** +50 / -7 in 3 files, 2 commit(s)
 
 ## Problem
 
@@ -17,11 +17,12 @@ Made `prompt` and `task` reserved column names for the CrossEncoder trainer, so 
 | Commit | Date | Author | Message |
 |---|---|---|---|
 | [`7a23a57f`](https://github.com/huggingface/sentence-transformers/pull/4420/commits/7a23a57f161d6fe5e810cb434cd7dae8b566fcc9) | 2026-11-20 | MaiAditya | &#91;fix&#93; Reject 'prompt' and 'task' dataset columns in CrossEncoderTrainer |
+| [`23825995`](https://github.com/huggingface/sentence-transformers/pull/4420/commits/238259955ac8f9bfebd74b66efcaa7ed906ec11d) | 2026-11-23 | tomaarsen | &#91;fix&#93; Keep CrossEncoder input columns separate from batch metadata |
 
 ## Files changed
 
 | File | Added | Removed |
 |---|---|---|
-| <code>sentence&#95;transformers/base/trainer.py</code> | +3 | -1 |
-| <code>sentence&#95;transformers/cross&#95;encoder/trainer.py</code> | +2 | -0 |
-| <code>tests/cross&#95;encoder/test&#95;trainer.py</code> | +21 | -0 |
+| <code>sentence&#95;transformers/cross&#95;encoder/data&#95;collator.py</code> | +3 | -3 |
+| <code>tests/cross&#95;encoder/test&#95;data&#95;collator.py</code> | +3 | -3 |
+| <code>tests/cross&#95;encoder/test&#95;trainer.py</code> | +44 | -1 |

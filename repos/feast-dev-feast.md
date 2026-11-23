@@ -3,7 +3,7 @@
 The Open Source Feature Store for AI/ML
 
 - Repository: https://github.com/feast-dev/feast
-- Stars: 7,362
+- Stars: 7,363
 
 | PR | Title | Status |
 |---|---|---|
