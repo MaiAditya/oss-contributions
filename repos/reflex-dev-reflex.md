@@ -3,7 +3,7 @@
 🕸️ Web apps in pure Python 🐍
 
 - Repository: https://github.com/reflex-dev/reflex
-- Stars: 29,046
+- Stars: 29,045
 
 | PR | Title | Status |
 |---|---|---|
