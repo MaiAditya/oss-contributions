@@ -1,6 +1,6 @@
 # comet-ml/opik #9548: &#91;issue-9547&#93; &#91;SDK&#93; fix: ChrF scored identical short strings below 1.0
 
-- **Status:** in review (opened 2026-11-13)
+- **Status:** merged 2026-11-23 by @awkoy
 - **Pull request:** https://github.com/comet-ml/opik/pull/9548
 - **Issue:** https://github.com/comet-ml/opik/issues/9547
 - **Size:** +138 / -2 in 2 files, 2 commit(s)

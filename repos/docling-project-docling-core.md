@@ -3,7 +3,7 @@
 Docling core data types and transformations
 
 - Repository: https://github.com/docling-project/docling-core
-- Stars: 301
+- Stars: 302
 
 | PR | Title | Status |
 |---|---|---|
