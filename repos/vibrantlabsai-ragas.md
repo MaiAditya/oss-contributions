@@ -3,7 +3,7 @@
 Supercharge Your LLM Application Evaluations 🚀
 
 - Repository: https://github.com/vibrantlabsai/ragas
-- Stars: 16,410
+- Stars: 16,412
 
 | PR | Title | Status |
 |---|---|---|
