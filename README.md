@@ -2,14 +2,17 @@
 
 Bug fixes and improvements I have contributed to open-source AI/ML projects. Each pull request has its own page with the problem, the fix, every commit and the files changed.
 
-**41 merged** · **45 in review** · **35 repositories** · **53 issues reported**
+**44 merged** · **43 in review** · **35 repositories** · **53 issues reported**
 
 ## Pull requests
 
 | Repository | PR | Title | Status | Lines |
 |---|---|---|---|---|
+| [roboflow/supervision](repos/roboflow-supervision.md) | [#2965](prs/roboflow-supervision-2965.md) | fix(metrics): report -1 for mean average recall without targets | merged 2026-11-24 | +121/-20 |
+| [neuml/txtai](repos/neuml-txtai.md) | [#1653](prs/neuml-txtai-1653.md) | Strip thinking text when the chat template opens the think tag in the prompt | merged 2026-11-24 | +19/-1 |
 | [comet-ml/opik](repos/comet-ml-opik.md) | [#9548](prs/comet-ml-opik-9548.md) | &#91;issue-9547&#93; &#91;SDK&#93; fix: ChrF scored identical short strings below 1.0 | merged 2026-11-23 | +138/-2 |
 | [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | [#4420](prs/huggingface-sentence-transformers-4420.md) | &#91;fix&#93; Avoid CrossEncoder input column collisions with batch metadata | merged 2026-11-23 | +50/-7 |
+| [PostHog/posthog-python](repos/PostHog-posthog-python.md) | [#1287](prs/PostHog-posthog-python-1287.md) | fix(ai): read OpenAI Agents response span usage when sensitive data is off | merged 2026-11-23 | +49/-3 |
 | [neuml/txtai](repos/neuml-txtai.md) | [#1648](prs/neuml-txtai-1648.md) | Fix OpenAI chat completions with generation parameters for embeddings and workflows | merged 2026-11-22 | +30/-5 |
 | [neuml/txtai](repos/neuml-txtai.md) | [#1640](prs/neuml-txtai-1640.md) | Add OpenAI client LLM and Vectors providers | merged 2026-11-22 | +569/-5 |
 | [neuml/txtai](repos/neuml-txtai.md) | [#1638](prs/neuml-txtai-1638.md) | Pass stripthink=False through the LLM and RAG API endpoints | merged 2026-11-22 | +27/-4 |
@@ -50,7 +53,7 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [docling-project/docling](repos/docling-project-docling.md) | [#5078](prs/docling-project-docling-5078.md) | fix(jats): keep tables published as an image | merged 2026-11-06 | +105/-4 |
 | [neuml/txtai](repos/neuml-txtai.md) | [#1523](prs/neuml-txtai-1523.md) | Use each similar clause's own number of candidates when batching | merged 2026-11-06 | +33/-8 |
 | [comet-ml/opik](repos/comet-ml-opik.md) | [#9708](prs/comet-ml-opik-9708.md) | &#91;issue-9707&#93; &#91;SDK&#93; fix: keep tool calls, finish reason and usage for non-OpenAI aisuite providers | in review | +107/-2 |
-| [neuml/txtai](repos/neuml-txtai.md) | [#1653](prs/neuml-txtai-1653.md) | Strip thinking text when the chat template opens the think tag in the prompt | in review | +19/-1 |
+| [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | [#4431](prs/huggingface-sentence-transformers-4431.md) | &#91;docs&#93; Fix the inference-free SPLADE learning&#95;rate&#95;mapping pattern for Router parameter names | in review | +57/-21 |
 | [crewAIInc/crewAI](repos/crewAIInc-crewAI.md) | [#9634](prs/crewAIInc-crewAI-9634.md) | fix(llm): use api&#95;base as the endpoint for openai-compatible providers | in review | +44/-1 |
 | [feast-dev/feast](repos/feast-dev-feast.md) | [#7205](prs/feast-dev-feast-7205.md) | fix: Transform every row when writing to a singleton Python ODFV | in review | +384/-27 |
 | [run-llama/llama_index](repos/run-llama-llama_index.md) | [#24351](prs/run-llama-llama_index-24351.md) | fix(core): read provider token counts from additional&#95;kwargs in TokenCountingHandler | in review | +132/-28 |
@@ -64,7 +67,6 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [567-labs/instructor](repos/567-labs-instructor.md) | [#3088](prs/567-labs-instructor-3088.md) | fix(retry): report IncompleteOutputException to error hooks | in review | +132/-3 |
 | [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | [#2520](prs/data-privacy-stack-presidio-2520.md) | fix(analyzer): count context words glued to an entity with ":" | in review | +68/-4 |
 | [weaviate/weaviate-python-client](repos/weaviate-weaviate-python-client.md) | [#2272](prs/weaviate-weaviate-python-client-2272.md) | fix(generative): return xAI and DeepSeek metadata in generative results | in review | +11/-1 |
-| [PostHog/posthog-python](repos/PostHog-posthog-python.md) | [#1287](prs/PostHog-posthog-python-1287.md) | fix(ai): read OpenAI Agents response span usage when sensitive data is off | in review | +49/-3 |
 | [docling-project/docling-core](repos/docling-project-docling-core.md) | [#1059](prs/docling-project-docling-core-1059.md) | fix(doclang): wrap additional InlineGroup children of a TextItem in &lt;text&gt; | in review | +50/-1 |
 | [google/adk-python](repos/google-adk-python.md) | [#8260](prs/google-adk-python-8260.md) | fix(live): retry 1008 "already connected" and back off on reconnect | in review | +282/-4 |
 | [Arize-ai/openinference](repos/Arize-ai-openinference.md) | [#4377](prs/Arize-ai-openinference-4377.md) | fix(haystack): capture cache and reasoning token counts | in review | +102/-0 |
@@ -85,7 +87,6 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [lancedb/lancedb](repos/lancedb-lancedb.md) | [#5003](prs/lancedb-lancedb-5003.md) | fix(python): keep the guessed vector dimension across batches for on&#95;bad&#95;vectors | in review | +64/-1 |
 | [lancedb/lancedb](repos/lancedb-lancedb.md) | [#4989](prs/lancedb-lancedb-4989.md) | fix(python): support nested constrained types in pydantic schemas | in review | +69/-1 |
 | [confident-ai/deepeval](repos/confident-ai-deepeval.md) | [#3644](prs/confident-ai-deepeval-3644.md) | fix: escape test data and reasons in the console report | in review | +217/-22 |
-| [roboflow/supervision](repos/roboflow-supervision.md) | [#2965](prs/roboflow-supervision-2965.md) | fix(metrics): report -1 for mean average recall without targets | in review | +56/-16 |
 | [langfuse/langfuse-python](repos/langfuse-langfuse-python.md) | [#2127](prs/langfuse-langfuse-python-2127.md) | fix(serializer): record class objects as class references | in review | +61/-1 |
 | [openlit/openlit](repos/openlit-openlit.md) | [#1953](prs/openlit-openlit-1953.md) | fix(litellm): record model and messages passed positionally | in review | +237/-16 |
 | [deepset-ai/haystack](repos/deepset-ai-haystack.md) | [#13693](prs/deepset-ai-haystack-13693.md) | fix: avoid whitespace-only and over-long chunks in RecursiveDocumentSplitter | in review | +108/-8 |
@@ -146,51 +147,51 @@ Bug fixes and improvements I have contributed to open-source AI/ML projects. Eac
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1623](https://github.com/neuml/txtai/issues/1623) | Agent dictionary tools ignore name and description when the target function has type hints | closed (fixed) | [#1624](prs/neuml-txtai-1624.md) |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1637](https://github.com/neuml/txtai/issues/1637) | LLM and RAG API endpoints ignore stripthink=false | closed (fixed) | [#1638](prs/neuml-txtai-1638.md) |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1647](https://github.com/neuml/txtai/issues/1647) | OpenAI chat completions fail with stream or max&#95;completion&#95;tokens for embeddings and workflow models | closed (fixed) | [#1648](prs/neuml-txtai-1648.md) |
-| [neuml/txtai](https://github.com/neuml/txtai) | [#1652](https://github.com/neuml/txtai/issues/1652) | stripthink leaves thinking text in place when the chat template opens the think tag in the prompt | open | [#1653](prs/neuml-txtai-1653.md) |
+| [neuml/txtai](https://github.com/neuml/txtai) | [#1652](https://github.com/neuml/txtai/issues/1652) | stripthink leaves thinking text in place when the chat template opens the think tag in the prompt | closed (fixed) | [#1653](prs/neuml-txtai-1653.md) |
 | [openlit/openlit](https://github.com/openlit/openlit) | [#1952](https://github.com/openlit/openlit/issues/1952) | Bug: LiteLLM calls with positional model and messages are traced as openai/gpt-4o | open | [#1953](prs/openlit-openlit-1953.md) |
 | [pydantic/logfire](https://github.com/pydantic/logfire) | [#2856](https://github.com/pydantic/logfire/issues/2856) | Pydantic fields with a custom serializer get the wrong JSON schema, which crashes the verbose console exporter | closed (fixed) | - |
 | [pydantic/pydantic](https://github.com/pydantic/pydantic) | [#14270](https://github.com/pydantic/pydantic/issues/14270) | `str_strip_whitespace`, `str_to_lower`/`str_to_upper` and `coerce_numbers_to_str` change `Path` values | open | - |
 | [qdrant/qdrant-client](https://github.com/qdrant/qdrant-client) | [#1657](https://github.com/qdrant/qdrant-client/issues/1657) | Local mode accepts invalid GeoPolygon filters that the server rejects | open | [#1658](prs/qdrant-qdrant-client-1658.md) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [#2964](https://github.com/roboflow/supervision/issues/2964) | &#91;Bug&#93;: MeanAverageRecall returns 0.0 instead of -1 when there are no targets (whole run or empty size bucket) | open | [#2965](prs/roboflow-supervision-2965.md) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [#2964](https://github.com/roboflow/supervision/issues/2964) | &#91;Bug&#93;: MeanAverageRecall returns 0.0 instead of -1 when there are no targets (whole run or empty size bucket) | closed (fixed) | [#2965](prs/roboflow-supervision-2965.md) |
 
 ## Repositories
 
 | Repository | About | Stars |
 |---|---|---|
-| [docling-project/docling](repos/docling-project-docling.md) | Get your documents ready for gen AI | 70,918 |
-| [crewAIInc/crewAI](repos/crewAIInc-crewAI.md) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empower… | 61,199 |
-| [run-llama/llama_index](repos/run-llama-llama_index.md) | LlamaIndex is the document processing platform for AI | 52,987 |
-| [roboflow/supervision](repos/roboflow-supervision.md) | We write your reusable computer vision tools. 💜 | 51,704 |
-| [huggingface/diffusers](repos/huggingface-diffusers.md) | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 34,969 |
+| [docling-project/docling](repos/docling-project-docling.md) | Get your documents ready for gen AI | 70,938 |
+| [crewAIInc/crewAI](repos/crewAIInc-crewAI.md) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empower… | 61,207 |
+| [run-llama/llama_index](repos/run-llama-llama_index.md) | LlamaIndex is the document processing platform for AI | 52,986 |
+| [roboflow/supervision](repos/roboflow-supervision.md) | We write your reusable computer vision tools. 💜 | 51,705 |
+| [huggingface/diffusers](repos/huggingface-diffusers.md) | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 34,968 |
 | [reflex-dev/reflex](repos/reflex-dev-reflex.md) | 🕸️ Web apps in pure Python 🐍 | 29,047 |
-| [deepset-ai/haystack](repos/deepset-ai-haystack.md) | Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modul… | 27,083 |
-| [comet-ml/opik](repos/comet-ml-opik.md) | Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, auto… | 23,489 |
-| [google/adk-python](repos/google-adk-python.md) | An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibil… | 22,324 |
-| [huggingface/datasets](repos/huggingface-datasets.md) | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools | 22,182 |
-| [huggingface/peft](repos/huggingface-peft.md) | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. | 21,919 |
-| [confident-ai/deepeval](repos/confident-ai-deepeval.md) | The LLM Evaluation Framework | 19,604 |
-| [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | State-of-the-Art Embeddings, Retrieval, and Reranking | 19,304 |
-| [pipecat-ai/pipecat](repos/pipecat-ai-pipecat.md) | Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community. | 17,397 |
-| [vibrantlabsai/ragas](repos/vibrantlabsai-ragas.md) | Supercharge Your LLM Application Evaluations 🚀 | 16,406 |
-| [Unstructured-IO/unstructured](repos/Unstructured-IO-unstructured.md) | Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex do… | 15,775 |
+| [deepset-ai/haystack](repos/deepset-ai-haystack.md) | Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modul… | 27,086 |
+| [comet-ml/opik](repos/comet-ml-opik.md) | Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, auto… | 23,492 |
+| [google/adk-python](repos/google-adk-python.md) | An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibil… | 22,330 |
+| [huggingface/datasets](repos/huggingface-datasets.md) | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools | 22,181 |
+| [huggingface/peft](repos/huggingface-peft.md) | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. | 21,918 |
+| [confident-ai/deepeval](repos/confident-ai-deepeval.md) | The LLM Evaluation Framework | 19,609 |
+| [huggingface/sentence-transformers](repos/huggingface-sentence-transformers.md) | State-of-the-Art Embeddings, Retrieval, and Reranking | 19,303 |
+| [pipecat-ai/pipecat](repos/pipecat-ai-pipecat.md) | Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community. | 17,401 |
+| [vibrantlabsai/ragas](repos/vibrantlabsai-ragas.md) | Supercharge Your LLM Application Evaluations 🚀 | 16,410 |
+| [Unstructured-IO/unstructured](repos/Unstructured-IO-unstructured.md) | Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex do… | 15,776 |
 | [567-labs/instructor](repos/567-labs-instructor.md) | structured outputs for llms | 14,136 |
 | [neuml/txtai](repos/neuml-txtai.md) | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows | 13,722 |
-| [Arize-ai/phoenix](repos/Arize-ai-phoenix.md) | AI Observability &amp; Evaluation | 12,382 |
-| [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, a… | 12,008 |
-| [lancedb/lancedb](repos/lancedb-lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,972 |
-| [huggingface/tokenizers](repos/huggingface-tokenizers.md) | 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production | 11,288 |
-| [feast-dev/feast](repos/feast-dev-feast.md) | The Open Source Feature Store for AI/ML | 7,363 |
-| [embeddings-benchmark/mteb](repos/embeddings-benchmark-mteb.md) | MTEB: State-of-the-art evaluation of embeddings across languages and modalities | 3,521 |
+| [Arize-ai/phoenix](repos/Arize-ai-phoenix.md) | AI Observability &amp; Evaluation | 12,387 |
+| [data-privacy-stack/presidio](repos/data-privacy-stack-presidio.md) | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, a… | 12,016 |
+| [lancedb/lancedb](repos/lancedb-lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,973 |
+| [huggingface/tokenizers](repos/huggingface-tokenizers.md) | 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production | 11,289 |
+| [feast-dev/feast](repos/feast-dev-feast.md) | The Open Source Feature Store for AI/ML | 7,364 |
+| [embeddings-benchmark/mteb](repos/embeddings-benchmark-mteb.md) | MTEB: State-of-the-art evaluation of embeddings across languages and modalities | 3,522 |
 | [openlit/openlit](repos/openlit-openlit.md) | Same agent, Smaller bill. The tools and infrastructure to get more work from your AI. Fewer tokens. Less compute. Lower… | 3,099 |
-| [medplum/medplum](repos/medplum-medplum.md) | Medplum is a healthcare platform that helps you quickly develop high-quality compliant applications. | 2,813 |
+| [medplum/medplum](repos/medplum-medplum.md) | Medplum is a healthcare platform that helps you quickly develop high-quality compliant applications. | 2,815 |
 | [qdrant/qdrant-client](repos/qdrant-qdrant-client.md) | Python client for Qdrant vector search engine | 1,380 |
-| [Arize-ai/openinference](repos/Arize-ai-openinference.md) | OpenTelemetry Instrumentation for AI Observability | 1,333 |
+| [Arize-ai/openinference](repos/Arize-ai-openinference.md) | OpenTelemetry Instrumentation for AI Observability | 1,332 |
 | [mistralai/mistral-common](repos/mistralai-mistral-common.md) | Official inference library for pre-processing of Mistral models | 966 |
-| [langfuse/langfuse-python](repos/langfuse-langfuse-python.md) | 🪢 Langfuse Python SDK | 516 |
+| [langfuse/langfuse-python](repos/langfuse-langfuse-python.md) | 🪢 Langfuse Python SDK | 517 |
 | [docling-project/docling-core](repos/docling-project-docling-core.md) | Docling core data types and transformations | 302 |
 | [weaviate/weaviate-python-client](repos/weaviate-weaviate-python-client.md) | A python native client for easy interaction with a Weaviate instance. | 230 |
 | [deepset-ai/haystack-core-integrations](repos/deepset-ai-haystack-core-integrations.md) | Additional packages (components, document stores and the likes) to extend the capabilities of Haystack | 212 |
 | [PostHog/posthog-python](repos/PostHog-posthog-python.md) | Send usage data from your Python code to PostHog. | 65 |
 | [lmnr-ai/lmnr-python](repos/lmnr-ai-lmnr-python.md) |  | 58 |
 
-_Last updated 2026-11-23. Generated from the GitHub API._
+_Last updated 2026-11-24. Generated from the GitHub API._

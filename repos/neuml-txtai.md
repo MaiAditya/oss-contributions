@@ -7,6 +7,7 @@
 
 | PR | Title | Status |
 |---|---|---|
+| [#1653](../prs/neuml-txtai-1653.md) | Strip thinking text when the chat template opens the think tag in the prompt | merged 2026-11-24 by @davidmezzetti |
 | [#1648](../prs/neuml-txtai-1648.md) | Fix OpenAI chat completions with generation parameters for embeddings and workflows | merged 2026-11-22 by @davidmezzetti |
 | [#1640](../prs/neuml-txtai-1640.md) | Add OpenAI client LLM and Vectors providers | merged 2026-11-22 by @davidmezzetti |
 | [#1638](../prs/neuml-txtai-1638.md) | Pass stripthink=False through the LLM and RAG API endpoints | merged 2026-11-22 by @davidmezzetti |
@@ -22,4 +23,3 @@
 | [#1550](../prs/neuml-txtai-1550.md) | Track nested parentheses in SQL function arguments | merged 2026-11-12 by @davidmezzetti |
 | [#1535](../prs/neuml-txtai-1535.md) | Split signs from operators when tokenizing SQL | merged 2026-11-12 by @davidmezzetti |
 | [#1523](../prs/neuml-txtai-1523.md) | Use each similar clause's own number of candidates when batching | merged 2026-11-06 by @davidmezzetti |
-| [#1653](../prs/neuml-txtai-1653.md) | Strip thinking text when the chat template opens the think tag in the prompt | in review (opened 2026-11-23) |

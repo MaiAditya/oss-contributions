@@ -3,7 +3,7 @@
 LlamaIndex is the document processing platform for AI
 
 - Repository: https://github.com/run-llama/llama_index
-- Stars: 52,987
+- Stars: 52,986
 
 | PR | Title | Status |
 |---|---|---|

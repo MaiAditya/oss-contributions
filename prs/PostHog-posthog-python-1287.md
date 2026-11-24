@@ -1,6 +1,6 @@
 # PostHog/posthog-python #1287: fix(ai): read OpenAI Agents response span usage when sensitive data is off
 
-- **Status:** in review (opened 2026-11-20)
+- **Status:** merged 2026-11-23 by @dustinbyrne
 - **Pull request:** https://github.com/PostHog/posthog-python/pull/1287
 - **Size:** +49 / -3 in 3 files, 1 commit(s)
 
