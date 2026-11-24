@@ -1,6 +1,6 @@
 # Arize-ai/openinference #4405: fix(cohere): record cached prompt tokens from chat usage
 
-- **Status:** in review (opened 2026-11-20)
+- **Status:** merged 2026-11-24 by @caroger
 - **Pull request:** https://github.com/Arize-ai/openinference/pull/4405
 - **Issue:** https://github.com/Arize-ai/openinference/issues/4404
 - **Size:** +47 / -1 in 2 files, 1 commit(s)

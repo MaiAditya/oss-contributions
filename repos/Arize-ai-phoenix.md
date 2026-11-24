@@ -3,7 +3,7 @@
 AI Observability &amp; Evaluation
 
 - Repository: https://github.com/Arize-ai/phoenix
-- Stars: 12,388
+- Stars: 12,391
 
 | PR | Title | Status |
 |---|---|---|
