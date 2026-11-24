@@ -1,6 +1,6 @@
 # PostHog/posthog-python #1299: fix(ai): don't double-count Gemini reasoning tokens in the LangChain callback handler
 
-- **Status:** in review (opened 2026-11-24)
+- **Status:** merged 2026-11-24 by @dustinbyrne
 - **Pull request:** https://github.com/PostHog/posthog-python/pull/1299
 - **Issue:** https://github.com/PostHog/posthog-python/issues/1298
 - **Size:** +109 / -0 in 3 files, 1 commit(s)

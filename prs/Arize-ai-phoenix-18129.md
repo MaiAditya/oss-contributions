@@ -1,6 +1,6 @@
 # Arize-ai/phoenix #18129: docs(client): fix PromptVersion and get&#95;traces examples in README
 
-- **Status:** in review (opened 2026-11-20)
+- **Status:** merged 2026-11-24 by @mikeldking
 - **Pull request:** https://github.com/Arize-ai/phoenix/pull/18129
 - **Issue:** https://github.com/Arize-ai/phoenix/issues/18128
 - **Size:** +8 / -5 in 2 files, 1 commit(s)
