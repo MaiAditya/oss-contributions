@@ -1,9 +1,9 @@
 # reflex-dev/reflex #7892: fix: name a forwarded scheme mismatch in the origin rejection warning
 
-- **Status:** in review (opened 2026-11-13)
+- **Status:** merged 2026-11-25 by @FarhanAliRaza
 - **Pull request:** https://github.com/reflex-dev/reflex/pull/7892
 - **Issue:** https://github.com/reflex-dev/reflex/issues/7857
-- **Size:** +59 / -11 in 3 files, 1 commit(s)
+- **Size:** +59 / -11 in 3 files, 2 commit(s)
 
 ## Problem
 
@@ -18,6 +18,7 @@ Named the trusted `X-Forwarded-Proto` in the warning and added a hint for the sc
 | Commit | Date | Author | Message |
 |---|---|---|---|
 | [`fb02d245`](https://github.com/reflex-dev/reflex/pull/7892/commits/fb02d24508eb50999499e89eb7ca1308ff2bba61) | 2026-11-13 | MaiAditya | fix: name a forwarded scheme mismatch in the origin rejection warning |
+| [`6da7b79e`](https://github.com/reflex-dev/reflex/pull/7892/commits/6da7b79e649471c2467960d6987c97a22e1e8f29) | 2026-11-25 | FarhanAliRaza | Merge upstream main into fix/origin-warning-forwarded-proto |
 
 ## Files changed
 

@@ -3,7 +3,7 @@
 Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.
 
 - Repository: https://github.com/pipecat-ai/pipecat
-- Stars: 17,414
+- Stars: 17,443
 
 | PR | Title | Status |
 |---|---|---|

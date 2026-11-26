@@ -1,6 +1,6 @@
 # roboflow/supervision #3061: fix(detection): load class-agnostic results in `from_transformers`
 
-- **Status:** in review (opened 2026-11-24)
+- **Status:** merged 2026-11-25 by @Borda
 - **Pull request:** https://github.com/roboflow/supervision/pull/3061
 - **Issue:** https://github.com/roboflow/supervision/issues/3060
 - **Size:** +71 / -8 in 4 files, 2 commit(s)

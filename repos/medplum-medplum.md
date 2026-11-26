@@ -3,7 +3,7 @@
 Medplum is a healthcare platform that helps you quickly develop high-quality compliant applications.
 
 - Repository: https://github.com/medplum/medplum
-- Stars: 2,817
+- Stars: 2,819
 
 | PR | Title | Status |
 |---|---|---|

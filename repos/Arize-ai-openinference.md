@@ -3,7 +3,7 @@
 OpenTelemetry Instrumentation for AI Observability
 
 - Repository: https://github.com/Arize-ai/openinference
-- Stars: 1,334
+- Stars: 1,335
 
 | PR | Title | Status |
 |---|---|---|

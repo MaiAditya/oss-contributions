@@ -3,7 +3,7 @@
 🪢 Langfuse Python SDK
 
 - Repository: https://github.com/langfuse/langfuse-python
-- Stars: 518
+- Stars: 519
 
 | PR | Title | Status |
 |---|---|---|
